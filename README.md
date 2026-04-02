@@ -53,7 +53,6 @@ ZX/
 | **Papirus Dark** | Iconos |
 | **CaskaydiaCove NF** | Fuente Nerd Font para terminal |
 | **xsettingsd** | Aplica temas GTK sin GNOME/KDE |
-| **Dict** | Dictado por voz local (faster-whisper) |
 | **playerctl** | Control de audio para keybindings |
 | **autorandr** | Perfiles de pantalla automáticos |
 | **tty-clock, cava, pipes, nms, nitrogen** | Herramientas de terminal |
@@ -71,7 +70,7 @@ ZX/
 | `Super + Shift + W` | Google Chrome |
 | `Super + Shift + D` | Thunar |
 | `Super + L` | Bloquear pantalla |
-| `F4` | Dict — dictado por voz |
+| `F4` | Dict (dictado por voz) |
 
 ### Ventanas
 
@@ -122,19 +121,6 @@ ZX/
 | **Max** | Pantalla completa |
 | **MonadTall** | Principal izquierda, resto apiladas derecha |
 | **MonadWide** | Principal arriba, resto apiladas abajo |
-
----
-
-## Dict — Dictado por voz
-
-Transcripción local con **faster-whisper**, sin internet ni API externa.
-
-- **Doble RCtrl** → grabar / transcribir y pegar
-- **RAlt** → pausar / reanudar
-- Idiomas: español (principal) + inglés
-- Modelo: `small` (~460MB, descarga en primera ejecución)
-
-Config en `~/.config/dict/config.json`.
 
 ---
 
