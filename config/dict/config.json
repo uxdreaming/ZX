@@ -1,0 +1,16 @@
+{
+  "model": "small",
+  "primary_language": "es",
+  "extra_languages": [
+    "en"
+  ],
+  "paste_method": "clipboard",
+  "double_press_threshold": 0.4,
+  "widget_position": {
+    "x": 1298,
+    "y": 666
+  },
+  "ai_improve": false,
+  "ai_model": "claude-haiku-4-5",
+  "anthropic_api_key": null
+}
